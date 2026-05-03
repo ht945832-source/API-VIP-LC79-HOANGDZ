@@ -1,0 +1,27 @@
+{
+  "name": "hoanhdz-tool-md5",
+  "version": "16.3.0",
+  "description": "Hệ thống phân tích MD5 v16.3 Diamond Supreme - Admin @tranhoang2286",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "md5",
+    "bot",
+    "fastify",
+    "nhat-hoang"
+  ],
+  "author": "TRẦN NHẬT HOÀNG",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.26.0",
+    "@fastify/cors": "^9.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
